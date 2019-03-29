@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<!-- <button bindtap='app'>确定</button>
+<view>{{userSex}}</view>
+<button bindtap='chick'>导航栏加载</button>
+<map id='id' bindtap='id'></map>
+<open-data id="wu" type="groupName" ></open-data>
+<button bindtap='zhfi'>支付</button> -->
+
+
+
+<view class='container'>
+<!-- 导航栏 -->
+  <view class='herder'>
+    <view class='herder-title'>
+      <view class='goj'>华世工匠</view>
+      <view class='font'>中国领先的装修师傅信息服务平台</view>
+      <view class='warp-popup' bindtap="searchs">
+        <view class='warp-popup-font'>搜索服务关键字</view>
+      </view>
+      <view class='duoy'></view>    
+    </view>
+  </view>
+<!-- 图片内容 -->
+  <view class='content'>
+    <view class='content-img'>
+      <view class='content-item' wx:for="{{list}}" wx:key="id" data-id="{{item.id}}" bindtap='optionJump'>
+        <image class='imgae' src='{{item.url}}' style='width:60rpx;height:60rpx;'></image>
+        <view class='conent-text'>{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+  <!-- 微活广播 -->
+  <view class='false'>  
+    <view class='gundong-section'>
+      <view class='falsedatas'>微活广播</view>
+      <view class="swiperview swiper-position">
+        <swiper class="swiperitem" indicator-dots="true" autoplay="{{autoplay}}" vertical="true" circular="true">
+          <block wx:for="{{falsedata}}" wx:key="{{index}}">
+            <swiper-item>
+              <text class="swiper-txt">{{item.title}}</text>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+  </view>
+  </view>
+  <!-- 图片 -->
+  <view class='content'>
+    <view class='content-img'>
+      <view class='content-item' wx:for="{{picture}}" wx:key="id" bindtap='Citys'>
+        <image class='imgae' src='{{item.url}}' style='width:60rpx;height:60rpx;'></image>
+        <view class='conent-text'>{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+<!-- 指南 -->
+  <view class='guide'>
+    <!-- <view class='guide-item'> -->
+      <view class='guide-item' bindtap="masters">
+        <view class='master'>找师傅指南</view>
+        <view class='master-bot'>1分钟下单,3分钟获取5个报价</view>
+      </view>
+      <view class='guide-item' style="background:#e29191" bindtap="service">
+        <view class='master'>服务流程</view>
+        <view class='master-bot'>微活师傅上门服务流程</view>
+      </view>
+    </view>
+  <button bindtap='login'>授权</button>
+
+</view>

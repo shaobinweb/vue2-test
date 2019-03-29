@@ -1,0 +1,151 @@
+  /**index.wxss**/
+.herder{
+  width:100%;
+  margin: 0 auto;
+  background:#86b0ff;
+}
+.herder-title{
+  margin: 0 auto;
+}
+.goj{
+  font-size: 50rpx;
+  color: #fff;
+  text-align: center;
+  padding: 70rpx 0 20rpx 0;
+}
+.font{
+  text-align: center;
+  color: #fff;
+  padding-bottom: 20rpx
+}
+.warp-popup{
+  background:#fff;
+  border: 1px solid #fff;
+  border-radius: 10rpx;
+  text-align: center;
+  width:500rpx;
+  height: 60rpx;
+  margin: 0 auto;
+  padding-bottom: 70rpx;
+  position: relative;
+  /* background:url("") no-repeat; */
+}
+.warp-popup-font{
+  color: #eee;
+  position: absolute;
+  top: 15rpx;
+  left: 20rpx;
+}
+.duoy{
+  padding-top: 50rpx;
+}
+.content{
+  width:100%;
+  margin:30rpx 0;
+}
+.content-img{
+  margin:0 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content-item{
+  width:130rpx;
+  margin:30rpx 0 30rpx 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.imgae{
+  margin: 0 auto;
+}
+.conent-text{
+  margin: 0 atuo;
+}
+.false{
+  width:100%;
+  background:#f10808;
+  height: 70rpx;
+  line-height: 70rpx;
+  /* display: flex; */
+}
+.falsedatas{
+  display: inline-block;  
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size:30rpx;
+  font-style: italic;
+  color:rgb(15, 2, 1);
+  padding: 0 15rpx;
+}
+.gundong-section {
+  position: relative;
+  overflow: hidden;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #86b0ff;
+  border-bottom: solid #f8f8f8 1px;
+}
+.gundong-section .swiper-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  height: 80rpx;
+  width: 100%;
+  overflow: hidden;
+}
+
+.swiperitem {
+  height: 100%;
+  margin-left: 5rem;
+}
+
+.swiperview .wx-swiper-dots {
+  display: none;
+}
+.swiper-txt {
+  font-size: 30rpx;
+  color: #0a0202;
+  line-height: 88rpx;
+}
+.gold_tip{
+  width:100%;
+  height:30px;
+  line-height:30px;
+  background-color: #FFCB0B;
+  overflow: hidden;
+}
+  .gold_tip view{
+  height: 52rpx;
+  line-height: 52rpx;
+  color: #fff;
+  font-size: 28rpx;
+  text-align: center;
+}
+.guide{
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.guide-item{
+  width:350rpx;
+  height:180rpx;
+  background:#cc8484;
+  border-radius: 7rpx;
+}
+.guide-item .master{
+  font-size: 30rpx;
+  margin: 10rpx 0 10rpx 10rpx;
+  color:#fff;
+  display: inline-block;
+}
+.guide-item .master-bot{
+  margin: 10rpx 0 10rpx 10rpx;
+  color:#fff;
+  font-size: 24rpx;
+}
+
+
+

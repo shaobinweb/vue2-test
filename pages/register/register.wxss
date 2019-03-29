@@ -1,0 +1,31 @@
+.userName{
+  width:94%;
+  margin: 150rpx auto 20rpx;
+ 
+}
+.user input{
+  height: 76rpx;
+  line-height: 76rpx;
+  border-bottom:2rpx solid #eee;
+}
+.verification{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.verification input{
+  width: 60%;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom:2rpx solid #eee;
+}
+.verification button{
+  width:30%;
+  font-size: 30rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.btu{
+  width:80%;
+  margin: 50rpx auto;
+}

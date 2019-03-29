@@ -1,0 +1,21 @@
+<view class="container">
+  <view class='product'>成品类</view>
+  <view class='content'>
+    <view class='content-img'>
+      <view class='content-item' wx:for="{{list}}" wx:key="id">
+        <image class='imgae' src='{{item.url}}' style='width:60rpx;height:60rpx;'></image>
+        <view class='conent-text'>{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+  <view class='bag'></view>
+  <view class='hardware'>硬件类</view>
+  <view class='content'>
+    <view class='content-img'>
+      <view class='content-item' wx:for="{{picture}}" wx:key="id">
+        <image class='imgae' src='{{item.url}}' style='width:60rpx;height:60rpx;'></image>
+        <view class='conent-text'>{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+</view>

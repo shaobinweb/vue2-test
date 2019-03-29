@@ -1,0 +1,130 @@
+/* pages/personal/personal.wxss */
+.personal{
+  width:100%;
+  height: 90rpx;
+  background: rgb(178, 210, 247);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personal-cont {
+  display: flex;
+  flex-direction: row;
+ 
+}
+.personal-cont image{
+  width:36rpx;
+  height: 36rpx;
+  display: flex;
+  align-items: center;
+  margin: 0 20rpx;
+}
+.personal-cont text{
+  font-size: 28rpx;
+  color: rgb(115, 172, 224);
+}
+.authentication{
+  margin-right:30rpx;
+  font-size: 26rpx;
+  border:1rpx solid rgb(178, 210, 247);
+  padding:10rpx 15rpx;
+  border-radius: 10rpx;
+  color: #fff;
+  background: rgb(115, 172, 224);
+}
+.signin{
+  width:100%;
+  margin: 2rpx 0;
+  padding: 20rpx;
+  display: flex;
+  height: 200rpx;
+  background: #eee;
+  justify-content: space-between;
+  align-items: center;
+}
+.signin-weight{
+  font-size: 36rpx;
+  font-weight: 600;
+  padding: 20rpx 0;
+}
+.sigin-font{
+  font-size: 26rpx;
+  color: rgb(190, 190, 190);
+}
+.money{
+  width:100%;
+  height: 150rpx;
+  background: #eee;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.contents{
+  height: 100rpx;
+  width:1rpx;
+}
+.wallet{
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  padding: 20rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+.wallet-img{
+  padding-left: 50rpx;
+}
+.wallet-right{
+  padding-right:60rpx; 
+}
+.wallet-top{
+  display: flex;
+  align-items: center;
+}
+.wallet-top text{
+  margin: 10rpx;
+  font-size: 26rpx;
+  color: rgb(192, 192, 192)
+}
+.chart{
+  width:100%;
+  display: flex;
+  background: #eee;
+  margin:2rpx;
+  height: 150rpx;
+  /* justify-content:space-around; */
+  justify-content: space-between;
+  align-items: center;
+  padding-left:65rpx;
+  padding-right: 70rpx;
+}
+.chart-left{
+  display: flex;
+  /* width: 50%; */
+  /* text-align: center; */
+}
+.chart-img{
+  display: flex;
+  align-items: center;
+  padding-right: 20rpx;
+}
+.diz{
+  font-size: 28rpx;
+  padding: 6rpx;
+}
+.changti{
+  font-size: 25rpx;
+  padding: 6rpx;
+  color: rgb(167, 157, 157);
+}
+.system{
+  background:#eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10rpx;
+  height: 70rpx;
+  margin: 20rpx 0
+}
+.system text{
+  font-size: 27rpx;
+}

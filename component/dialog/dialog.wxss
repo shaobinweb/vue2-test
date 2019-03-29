@@ -1,0 +1,39 @@
+.dialog{
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000
+}
+.my-dialog{
+  width:80%;
+  background: #fff;
+  position: relative;
+  margin: 50% auto;
+}
+.dialog-title{
+  font-size: 40rpx;
+  font-weight: 600;
+  padding: 30rpx 100rpx 10rpx 200rpx;
+  margin: 0 auto; 
+}
+.dialog-content{
+  width:60%;
+  margin: 40rpx auto;
+}
+.dialog-content view{
+  font-size: 25rpx;
+}
+.xian{
+  width:100%;
+  border: 1rpx solid #eee;
+}
+.modal-footer{
+  width:100%;
+  background: rgb(243, 240, 240);
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+}

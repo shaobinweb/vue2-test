@@ -1,0 +1,41 @@
+/* pages/commodity/commodity.wxss */
+.container{
+  height: 100%;
+}
+.header{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20rpx;
+  margin-top: 5rpx;
+}
+.add{
+  display: flex;
+  border: 1px solid #eee;
+  height: 68rpx;
+  align-items: center;
+  padding: 8rpx;
+  background: rgb(129, 123, 123) ;
+  border-radius: 8rpx;
+}
+.add view{
+  color: #fff;
+  font-size: 24rpx;
+  padding: 16rpx;
+}
+.contentr{
+  width: 80%;
+  height: 80%;
+  background: #eee;
+  border: 1rpx solid rgb(184, 178, 178);
+  position: fixed;
+  display: flex;
+  left: 74rpx;
+  top: 170rpx;
+}
+.contentr-s{
+  position: absolute;
+
+}

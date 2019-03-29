@@ -1,0 +1,32 @@
+/**app.wxss**/
+/* .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}  */
+.container {
+  box-sizing: border-box;
+  font-family: PingFangSC-Light, helvetica, 'Heiti SC';
+  width: 100%;
+  height: 100%;
+}
+
+view, image, text, navigator {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+view, text {
+  /* font-family: PingFangSC-Light, helvetica, 'Heiti SC'; */
+  font-size: 29rpx;
+  color: #000000;
+}
+
+.wxParse-img {
+  display: block !important;
+}

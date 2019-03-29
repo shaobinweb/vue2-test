@@ -1,0 +1,7 @@
+<!-- 搜索服务 -->
+<view class='container'>
+  <view class='inputs'>
+    <input type='text' placeholder='输入关键字搜索'></input>
+    <image src='../../images/sousuokuang.png' ></image>
+  </view> 
+</view>

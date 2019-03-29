@@ -1,0 +1,99 @@
+<view class="camera" bindtap='gotoShow'>
+  <view class='camera-lef'>
+    <image src='{{srcs}}' style='width:90rpx;height:90rpx;'></image>
+  </view>
+  <view class='camera-righ'>
+    <view>相片图片(必选)</view>
+    <image src='../../images/youjian.png' style='width:30rpx;height:30rpx'></image>
+  </view>
+</view>
+<view class='category' bindtap='chooseSezi'>
+  <view class='category-itme'>
+    <text>*</text>
+    <view>商品类别</view>
+  </view>
+  <view class='category-rig'>
+    <text>{{}}</text>
+    <image src='../../images/youjian.png' style='width:30rpx;height:30rpx'></image>
+  </view>
+</view>
+<view class='num'>
+  <view class='category-itme'>
+    <text>*</text>
+    <view>商品数量</view>
+    <input type='number' placeholder='输入商品数量'></input>
+  </view>
+  <view class='category-rig'>
+    <view>个</view>
+  </view>
+</view>
+<view class='img'></view>
+<view class='requirement'>
+  <text>特殊要求</text>
+</view>
+<view class='textara'>
+  <textarea class='textara-content' placeholder='如有特殊需求,请在此编写,以便师傅报价'></textarea>
+</view>
+<view style='width:100%;height:26rpx;background:#eee;'></view>
+<view class='base'>
+  <text>是否还有其他图片</text>
+  <view>
+   <switch bindchange="switch2Change" bindchange="changes" />
+  </view>
+</view>
+<view class="camera" bindtap='gotoShow' wx:if="{{booloans}}">
+  <view class='camera-lef'>
+    <image src='{{srcs}}' style='width:90rpx;height:90rpx;'></image>
+  </view>
+</view>
+<view class='submission'>
+  <button type='primary'>提交保持</button>
+</view>
+<view class='maskLayer' wx:if="{{chooseSize}}" bindtap='hideModal'></view>
+<view class='choose' wx:if="{{chooseSize}}" animation='{{animationData}}'>
+  <view class='leibie'>
+    <text>请选择商品类别</text>
+  </view>
+  <!-- <view class='menu'>
+    <block wx:for="{{content}}" wx:key="{{id}}" wx:for-item="dayItem">
+      <view>{{dayItem.title}}</view>
+    </block>
+    <block wx:for="{{dayItem.titleItem}}" wx:key="*this" data-id="{{item.id}}"> 
+      <view>item{{item.name}}</view>
+    </block> 
+  </view> -->
+  <!-- <view class="container">
+    <block class='mainbox' wx:for="{{content}}" wx:key="{{id}}" wx:for-item="dayItem">
+      <view class='newslist' >
+        <view class='time' style='float:left;display:block'>
+          {{dayItem.title}}
+        </view>
+        <block wx:for="{{dayItem.titleItem}}" wx:key="*this" data-id="{{item.id}}" wx:for-item="item">
+          <view class='list' style='float:right;display:block'>
+            {{item.name}}
+          </view>
+        </block>
+      </view>
+    </block>
+  </view> -->
+  <view class="container">
+      <view class='newslist'>
+        <view class='time' bindtap='clickShow' style='background:{{backgr}}'>木门</view>
+        <view class='time' bindtap='clickHide' style='background:{{backgrs}}'>门套</view>
+        <!-- <block wx:for="{{content}}" wx:key="{{id}}">
+          <view class='time' bindtap='clickShow'>{{item.title}}</view>
+        </block> -->
+      </view>
+      <view class='mainbox' wx:if="{{show}}">
+        <view class='list'>复合门</view>
+        <view class='list'>实体门</view>
+        <view class='list'>模压门</view>
+        <view class='list'>其它门</view>
+        <view class='list'>原木门</view>
+    </view>
+    <view class='mainbox' wx:if="{{hide}}">
+        <view class='list'>单包门套</view>
+        <view class='list'>复合双包门套门</view>
+    </view>
+  </view>
+</view>

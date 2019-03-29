@@ -1,0 +1,101 @@
+<view class='container' style='z-index:100'>
+  <view class='demand'>
+    <view class='demand-left'>
+      <image src='../../images/fuwu.png' style='width:40rpx;height:40rpx;'></image>
+      <text>所需服务：</text>
+    </view>
+    <view class='demand-right'>
+      {{contents}}
+    </view>
+  </view>
+  <view class='service' >
+    <view class='service-lef'>
+      <text class='service-log'>*</text> 
+      <text>选择服务：</text>
+    </view>
+    <!-- <view class='service-rig'>
+      <text>安装</text>    
+    </view> -->
+    <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class='service-rig'>
+      <view class="picker">
+        <text>{{array[index]}}</text>
+        <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>
+      </view>
+      
+    </picker>
+  </view>
+  <view class='service' bindtap='information' style='margin-bottom:4rpx;'>
+    <view class='service-lef'>
+      <text class='service-log'>*</text> 
+      <text>客户信息：</text>
+    </view>
+    <view class='service-rig'>
+      <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>  
+    </view>
+  </view>
+  <view class='service'  style='margin-bottom:4rpx;' wx:if="{{repair}}">
+    <view class='service-lef'>
+      <text class='service-log'>*</text> 
+      <text>维修信息：</text>
+    </view>
+    <view class='service-rig'>
+      <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>  
+    </view>
+  </view>
+  <view class='service'  style='margin-bottom:4rpx;' wx:if="{{goods}}">
+    <view class='service-lef'>
+      <text class='service-log'>*</text> 
+      <text>提货信息：</text>
+    </view>
+    <view class='service-rig'>
+      <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>  
+    </view>
+  </view>
+  <view class='service' bindtap='commodity' style='margin-bottom:12rpx;' wx:if="{{Commodity }}">
+    <view class='service-lef'>
+      <text class='service-log'>*</text> 
+      <text>商品信息：</text>
+    </view>
+    <view class='service-rig'>
+      <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>  
+    </view>
+  </view>
+  <view class='service' style="margin:4rpx 0rpx;">
+    <view class='service-lef'>
+      <text class='service-log'>*</text> 
+      <text>价格方式：</text>
+    </view>
+    <view class='service-rig'>
+        <text class='price' style="background-color:{{pageBackgroundColorblue}}" bindtap='myserice'>师傅报价</text>
+        <text class='prices' bindtap='myprice' style="background-color:{{pageBackgroundColor}}">我来定价</text>
+    </view>
+  </view>
+  <dialog id="dialog"
+      modalTitle="定义温馨提示"
+      modalMsg="你定价以后,师傅将不能个人意愿真实报价,这可能会影响师傅参与报价的积极性.如果需要快速获得多个报价建议优先选择'师傅报价'."
+      bind:confirmEvent="_confirmEvent">
+  </dialog>
+  <view class='bott' wx:if="{{falses}}" style='padding-left:30rpx'>
+    <text>一口价：</text>
+    <input type='number' placeholder='请填写服务总费用+物流费(如需代付)' bindinput='inputs' value='{{inputValue}}'></input>
+  </view> 
+  <view class='service' bindtap='requirement' style='margin-bottom:4rpx;padding-left:30rpx;'>
+    <view class='service-lef'>  
+      <text>其他订单：</text>
+    </view>
+    <view class='service-rig'>
+      <text>{{address}}</text>
+      <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>  
+    </view>
+  </view> 
+   <view class='service' bindtap='commoditys' style='margin-bottom:12rpx;'>
+    <view class='service-lef'>
+      <text class='service-log'>*</text> 
+      <text>订单联系人：</text>
+    </view>
+    <view class='service-rig'>
+      <text>{{datas}}</text>
+      <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>  
+    </view>
+  </view>
+</view>

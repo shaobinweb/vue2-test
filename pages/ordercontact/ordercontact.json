@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "frameds":"/component/frameds/frameds"  
+  },
+  "navigationBarTitleText":"订单联系人"
+}

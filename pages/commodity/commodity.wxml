@@ -1,0 +1,14 @@
+<view class="container">
+  <view class='header'>
+    <view class='add'>
+      <image src='../../images/jiahao-copy.png' style='width:30rpx;height:30rpx;'></image>
+      <view bindtap='addto'>添加</view>
+    </view>
+    <view class='determine'>
+      <button size='mini' type='primary'>确定</button>
+    </view>
+  </view>
+  <view class='contentr'>
+    <view class='contentr-s'>{{11111}}</view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<!--component/dialog/dialog.wxml-->
+<view class="dialog" hidden="{{!showDialog}}">
+  <view class='my-dialog'>
+    <view class='dialog-title'>
+      <view class='title'>{{modalTitle}}</view>
+    </view>
+    <view class='dialog-content'>
+      <view>{{modalMsg}}</view>
+    </view>
+    <view class='xian'></view>
+    <view class='modal-footer'>
+      <text class='sure' catchtap='_confirmEvent'>我知道了</text>
+    </view>
+  </view>
+</view>

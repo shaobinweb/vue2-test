@@ -1,0 +1,6 @@
+<!--component/frameds/frameds.wxml-->
+<view class="dialog" hidden="{{!showDialogs}}">
+  <view class='dialog-frameds'>
+    <text>{{phoneNmbern}}</text>
+  </view>
+</view>

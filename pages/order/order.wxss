@@ -1,0 +1,19 @@
+/* pages/order/order.wxss */
+.btn-area{
+  background: rgb(228, 225, 225);
+  margin-top: 5rpx;
+}
+.scroll-view_H{
+  white-space:nowrap;
+  width: 100%;
+  /* padding:6px 40px 0; */
+  box-sizing: content-box;
+}
+.nav-name{
+  display:inline-block;
+  font-size:30rpx;
+  color: #2b2e33;
+  /* border-bottom: 2px solid transparent; */
+  padding:16rpx 20rpx;
+}
+.nav-hover{color: #349393;}

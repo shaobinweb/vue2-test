@@ -1,0 +1,30 @@
+/* pages/worker/worker.wxss */
+.worker{
+  width:100%;
+  background:rgb(204, 202, 202);
+  display: flex;
+  flex-direction: row;
+}
+.worker-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:50%;
+  height: 60rpx;
+  align-items: center;
+  padding: 0 15rpx;
+}
+.worker-left{
+  display: flex;
+  align-items: center;
+}
+.worker-right{
+  display: flex;
+  align-content: center;
+}
+.conter{
+  content: "";
+  border: 1rpx solid #fff;
+  height: 40rpx;
+  margin-top: 10rpx;
+}

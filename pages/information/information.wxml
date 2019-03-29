@@ -1,0 +1,48 @@
+<view class="container">
+  <view class='tips'>
+    <image src='../../images/warning.png' style='width:36rpx; height:36rpx;'></image>
+    <text class='tips-font'> 若客户为您自己,请填写自己的信息即可</text>
+  </view>
+  <view class='city' bindtap='citychoice'>
+    <text class='red'>*</text>
+    <text class='city-font'>城市区域：</text>
+    <input type='text' placeholder='请选择您所在的城市'></input>
+    <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>
+  </view>
+
+  <view class='city'>
+    <text class='red'>*</text>
+    <text class='city-font'>详细地址：</text>
+    <input type='text' placeholder="如街道小区,门牌号,地址(可不填)"></input>
+  </view>
+  <view class='city' style='margin-botton:1000rpx' style='dispaly:flex; justify-content: space-between;'>
+    <view>
+      <text class='red'>*</text>
+      <text class='city-font'>电梯是可用：</text>
+    </view>
+    <view class='elevator'>
+      <text bindtap='yesuser' style='background:{{backgcolor}}'>可用使用</text>
+      <text bindtap='nouser' style='background:{{colourless}}'>不能使用</text>
+    </view>
+  </view>
+  <view class='city' style='margin-botton:6rpx;padding-left:20rpx;' wx:if="{{citys}}">
+    <text class='city-font'>楼层信息：</text>
+    <input type='text' placeholder="请输入您的楼层信息"></input>
+  </view>
+    <view class='city'>
+    <text class='red'>*</text>
+    <text class='city-font'>客户姓名：</text>
+    <input type='text' placeholder='请输入联系人姓名(必填)'></input>
+  </view>
+  <view class='city'>
+    <text class='red'>*</text>
+    <text class='city-font'>客户电话：</text>
+    <input type='text' placeholder='请输入联系电话'></input>
+  </view>
+  <view class='wenzi'>
+    <text class='red'>*</text>
+    <text class='city-font'>华世工匠受法律监管,将尊重客户隐私,不会向任何第三方泄漏客服资料</text>
+  </view>
+  <button style="background:rgb(109, 170, 248)">确定</button>
+  
+</view>

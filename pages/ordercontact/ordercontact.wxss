@@ -1,0 +1,16 @@
+.bott{
+  width:100%;
+  background:#eee;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10rpx 0;
+}
+.bott text{
+  margin-left: 30rpx;
+}
+.bott input{
+  padding: 20rpx 0 20rpx 20rpx;
+  width:70%;
+  
+}

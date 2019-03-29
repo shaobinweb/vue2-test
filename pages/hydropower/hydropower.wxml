@@ -1,0 +1,82 @@
+<view class='demand'>
+    <view class='demand-left'>
+      <image src='../../images/fuwu.png' style='width:40rpx;height:40rpx;'></image>
+      <text>所需服务：</text>
+    </view>
+    <view class='demand-right'>
+      {{contents}}
+    </view>
+</view>
+<view class='times' style='margin-bottom: 10rpx;'>
+    <picker
+          mode="date"
+          value="{{date}}"
+          bindchange="bindTimeChange"
+          class='rili'
+          >
+      <view class='time-content'>
+        <view class="section__title">
+          <text class='red'>*</text>
+          <view class='font'>期望服务时间:</view>
+          <input type='text' disabled="true" placeholder='请选择期望服务时间' value='{{data}}'></input>
+        </view>
+      </view>
+  </picker>
+  <view class="section">       
+    <image src='../../images/rili.png' style='width:50rpx;height:50rpx'></image> 
+  </view>
+</view>
+<view class='times' style='margin:5rpx 0 1rpx 0;' bindtap='chengshi'>
+    <view class='time-content'>
+      <view class="section__title">
+        <text class='red'>*</text>
+        <view class='font'>期望服务时间:</view>
+        <input type='text' disabled="true" placeholder='请选择服务城市' value='{{chengs}}'></input>
+      </view>
+    </view>
+  <view class="section">       
+    <image src='../../images/youjian.png' style='width:30rpx;height:30rpx'></image>     
+  </view>
+</view>
+<view class='times' style='border-bottom:1px solid #fff;'>
+    <view class='time-content'>
+      <view class="section__title">
+        <text class='red'>*</text>
+        <view class='font'>详细地址:</view>
+        <input type='text' placeholder='师傅与您协价的上门地址'></input>
+      </view>
+    </view>
+</view>
+<view class='times' bindtap='Requirements' style='border-bottom:5px solid #fff;'>
+    <view class='time-content'>
+      <view class="section__title">
+        <text class='red'>*</text>
+        <view class='font'>具体需求:</view>
+        <input type='text' disabled="true" placeholder="完善" value='{{dateTimes}}'></input>
+      </view>
+    </view>
+  <view class="section">       
+    <image src='../../images/youjian.png' style='width:30rpx;height:30rpx'></image>     
+  </view>
+</view>
+<view class='times' style='border-bottom:1px solid #fff;'>
+    <view class='time-content'>
+      <view class="section__title">
+        <view class='font' style='margin-left:28rpx;'>金额预算:</view>
+        <input type='text' placeholder='你原因出多少前(选填)'></input>
+      </view>
+    </view>
+</view>
+<view class='times' style='margin:0 0 1rpx 0;' bindtap='contacts'>
+    <view class='time-content'>
+      <view class="section__title">
+        <text class='red'>*</text>
+        <view class='font'>订单联系人:</view>
+        <input type='text' disabled="true"  value='{{datas}}'></input>
+      </view>
+    </view>
+  <view class="section">       
+    <image src='../../images/youjian.png' style='width:30rpx;height:30rpx'></image>     
+  </view>
+</view>
+<button class='qued' type='primary'>确定</button>

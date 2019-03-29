@@ -1,0 +1,129 @@
+<view class="container">
+  <view class='personal' wx:if="{{boolean}}">
+    <view class='personal-cont'>
+      <image src='../../images/warning.png'></image>
+      <text class='tips-font'>成为认证,获取更多权限</text>
+    </view>
+    <view class='authentication'>立即认证</view>  
+  </view>
+  <view class='signin' bindtap='login'>
+    <view class='signin-left'>
+      <view class='signin-weight'>点击登录</view>
+      <view class='sigin-font'>点击登录查看更多信息</view>
+    </view>
+    <view class='signin-right'>
+      <image src='../../images/touxiang.png' style='width:130rpx;height:130rpx;'></image>
+    </view>
+  </view>
+  <view class='money'>
+    <view class='wallet'>
+      <view class='wallet-img'>
+        <image src='../../images/personals/qianbao.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view class='wallet-right'>
+        <view class='wallet-top'>
+          <text>我的钱包</text>
+          <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>
+        </view>
+        <view style='padding-left:10rpx;color:rgb(192, 192, 192)'>{{qian}}</view>
+      </view>
+    </view>
+    <view class='contents'></view>
+    <view class='wallet'>
+      <view class='wallet-img'>
+        <image src='../../images/personals/youhuijuan.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view class='wallet-right'>
+        <view class='wallet-top'>
+          <text>我的优惠卷</text>
+          <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>
+        </view>
+        <view style='padding-left:10rpx;color:rgb(192, 192, 192)'>{{zhang}}</view>
+      </view>
+    </view>
+  </view>
+  <view class='chart'style="padding-right:120rpx;">
+    <view class='chart-left'>
+      <view class='chart-img'>
+        <image src='../../images/personals/shangpintupian.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view>
+        <view class='diz'>商品图库</view>
+        <view class='changti'>建立商品图库</view>
+      </view>
+    </view>
+    <view class='chart-left'>
+      <view class='chart-img'>
+        <image src='../../images/personals/malingshuxiangmuicon-.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view>
+        <view class='diz'>提货地址</view>
+        <view class='changti'>常提货地址</view>
+      </view>
+    </view>
+  </view>  
+  <view class='chart' style='margin-bottom:10rpx;'>
+    <view class='chart-left'>
+      <view class='chart-img'>
+        <image src='../../images/personals/shifuguanli.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view>
+        <view class='diz'>师傅管理</view>
+        <view class='changti'>与我有关的师傅</view>
+      </view>
+    </view>
+    <view class='chart-left'>
+      <view class='chart-img'>
+        <image src='../../images/personals/jiaoyitongji.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view>
+        <view class='diz'>交易统计</view>
+        <view class='changti'>看看消费多少钱</view>
+      </view>
+    </view>
+  </view> 
+  <view class='chart'>
+    <view class='chart-left'>
+      <view class='chart-img'>
+        <image src='../../images/personals/tousuchuli.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view>
+        <view class='diz'>投诉电话</view>
+        <view class='changti'>投诉进度和流程</view>
+      </view>
+    </view>
+    <view class='chart-left'>
+      <view class='chart-img'>
+        <image src='../../images/personals/tuikuanguanlizhuanhuan.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view>
+        <view class='diz'>退款流程</view>
+        <view class='changti'>退款流程和流程</view>
+      </view>
+    </view>
+  </view> 
+  <view class='chart'>
+    <view class='chart-left'>
+      <view class='chart-img'>
+        <image src='../../images/personals/shifuguanli.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view>
+        <view class='diz'>我的客服</view>
+        <view class='changti'>常见问题和人工客服</view>
+      </view>
+    </view>
+    <view class='chart-left'>
+      <view class='chart-img'>
+        <image src='../../images/personals/jiaoyitongji.png' style='width:50rpx;height:50rpx;'></image>
+      </view>
+      <view>
+        <view class='diz'>密码管理</view>
+        <view class='changti'>登录和钱包密码</view>
+      </view>
+    </view>
+  </view> 
+  <view class='system'>
+    <text>系统设置</text>
+    <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>
+  </view>
+</view>

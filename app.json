@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/worker/worker",
+    "pages/total/total",
+    "pages/order/order",
+    "pages/personal/personal",
+    "pages/master/master",
+    "pages/service/service",
+    "pages/searchsss/search",
+    "pages/demand/demand",
+    "pages/information/information",
+    "pages/commodity/commodity",
+    "pages/requirement/requirement",
+    "pages/ordercontact/ordercontact",
+    "pages/citychoice/citychoice",
+    "pages/add/add",
+    "pages/hydropower/hydropower",
+    "pages/requirementTwo/requirementTwo",
+    "pages/perfect/perfect",
+    "pages/register/register",
+    "pages/forget/forget"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#11cd62",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/yemian.png",
+        "selectedIconPath": "images/yemian4.png"
+      },
+      {
+        "pagePath": "pages/worker/worker",
+        "text": "师傅",
+        "iconPath": "images/weixiushifu.png",
+        "selectedIconPath": "images/weixiushifu3.png"
+      },
+      {
+        "pagePath": "pages/total/total",
+        "iconPath": "images/jiahao-copy.png",
+        "selectedIconPath": "images/jiahao-copy2.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "images/icon-.png",
+        "selectedIconPath": "images/icon1.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "个人",
+        "iconPath": "images/jingjirenjinglikehuxianxingcopy.png",
+        "selectedIconPath": "images/man.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+.tips{
+  width:100%;
+  height: 80rpx;
+  background: rgb(178, 210, 247);
+  display: flex;
+  align-items: center;
+}
+.tips image{
+  margin: 0 0rpx 0 20rpx;
+}
+.tips .tips-font{
+  font-size: 28rpx;
+  color: rgb(109, 170, 248);
+  margin-left: 26rpx;
+}
+.city{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #eee;
+  height: 100rpx;
+  margin-bottom: 2rpx;
+ 
+}
+.city .red{
+  color:red;
+  margin-left: 16rpx;
+}
+.city .city-font{
+  margin:10rpx;
+}
+.city input{
+  width:66%;
+  padding-left: 8rpx;
+}
+.city image{
+  margin-right: -200rpx;
+}
+.elevator{
+  margin-right: 20rpx;
+}
+.elevator-text{
+  display:flex;
+  flex-direction: row-reverse;
+}
+.elevator text{
+  border: 1rpx solid rgb(221, 219, 219);
+  padding:13rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.wenzi{
+  margin: 15rpx 15rpx 100rpx;
+}
+.wenzi .reds{
+  color: red;
+  padding-right: 10rpx; 
+}
+.wenzi .city-font{
+  font-size: 23rpx;
+}

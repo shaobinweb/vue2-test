@@ -1,0 +1,22 @@
+
+<!-- 文本框内容 -->
+<view class='textbox'>
+    <textarea  fixed="true" class='text' value="{{dateTime}}" maxlength="150"  focus='{{focus}}'  placeholder="捎句话带给师傅..." bindinput='eventchanges'
+   />
+    <view class="umber">{{content}}/150</view>
+</view>
+<view>
+  <view class='anniu'>
+    <text>是否还有其他图片需要上传</text>
+    <view class='swith'>
+      <switch  bindchange="changes" />
+    </view>
+  </view>
+  <view class="camera" bindtap='gotoShow' wx:if="{{booloans}}">
+    <view class='camera-lef'>
+      <image src='{{srcs}}' style='width:90rpx;height:90rpx;'></image>
+    </view>
+  </view>
+</view>
+<!-- <view style='width:100%;background:#eee;height:10rpx;'></view> -->
+<button class='but' bindtap='Submissions'>确定</button>

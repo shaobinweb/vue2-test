@@ -1,0 +1,184 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": false,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.4",
+	"appid": "wxcf8c1757793c17a5",
+	"projectname": "xiaochenxi",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 19,
+			"list": [
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "pages/searchsss/search",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "shouye",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "product",
+					"pathName": "pages/total/total",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单",
+					"pathName": "pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "师傅",
+					"pathName": "pages/worker/worker",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "需求",
+					"pathName": "pages/demand/demand",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "要求",
+					"pathName": "pages/requirement/requirement",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单联系人",
+					"pathName": "pages/ordercontact/ordercontact",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "客户信息",
+					"pathName": "pages/information/information",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "城市选择",
+					"pathName": "pages/citychoice/citychoice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "个人中心",
+					"pathName": "pages/personal/personal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "其他要求",
+					"pathName": "pages/requirement/requirement",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加商品",
+					"pathName": "pages/commodity/commodity",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加物品",
+					"pathName": "pages/add/add",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "需求2",
+					"pathName": "pages/hydropower/hydropower",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "其他要求2",
+					"pathName": "pages/requirementTwo/requirementTwo",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/logs/logs",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "注册",
+					"pathName": "pages/register/register",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "忘记密码",
+					"pathName": "pages/forget/forget",
+					"scene": null
+				}
+			]
+		}
+	}
+}

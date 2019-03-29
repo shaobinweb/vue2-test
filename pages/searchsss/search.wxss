@@ -1,0 +1,24 @@
+/* pages/searchsss/search.wxss */
+
+.inputs{
+  background: #eee;
+  width:70%;
+  border:1rpx solid #eee;
+  /* text-align: center; */
+  border-radius: 15rpx;
+  /* height: 50rpx */
+  padding: 15rpx;
+  margin: 30rpx auto;
+  position: relative;
+}
+.inputs input{
+  padding-left: 40rpx;
+}
+.inputs image{
+  width:35rpx;
+  height:35rpx;
+  position: absolute;
+  color: red;
+  top: 22rpx;
+  left:10rpx;
+}

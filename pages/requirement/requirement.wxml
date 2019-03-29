@@ -1,0 +1,27 @@
+<!--pages/requirement/requirement.wxml-->
+<view class="section" >
+  <view class="section__title">期望服务时间：</view>
+  <picker   
+    mode="date"
+    value="{{date}}"
+    bindchange="bindDateChange"
+  >
+    <view class='section-date'>
+      <view class="picker">
+        {{date}}
+      </view>
+      <image src='../../images/youjian.png' style='width:30rpx;height:30rpx;'></image>
+    </view>
+  </picker>
+</view>
+<!-- 文本框内容 -->
+<view class='textbox'>
+    <textarea  fixed="true" class='text' value="{{note.content}}" maxlength="150"  
+        focus='{{focus}}'  placeholder="捎句话带给师傅..." bindinput='eventchanges'
+   />
+    <view class="umber">{{content}}/150</view>
+</view>
+<!-- <view style='width:100%;background:#eee;height:10rpx;'></view> -->
+<button class='but' bindtap='Submission'>确定</button>
+
+

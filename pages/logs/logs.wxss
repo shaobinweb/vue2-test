@@ -1,0 +1,44 @@
+.userName{
+  width:94%;
+  margin: 300rpx auto 20rpx;
+ 
+}
+.user input{
+  height: 76rpx;
+  line-height: 76rpx;
+  border-bottom:2rpx solid #eee;
+}
+.login-btn{
+  width:80%;
+  margin: 30rpx auto;
+  height:96rpx;
+  line-height:96rpx;
+  font-size:30rpx;
+  border-radius:6rpx;
+  color:#fff;
+  right:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:flex;
+  bottom:0;
+  left:0;
+  padding:0;
+  /* margin-left:5%; */
+  text-align:center;
+  border-top-left-radius:50rpx;
+  border-bottom-left-radius:50rpx;
+  border-top-right-radius:50rpx;
+  border-bottom-right-radius:50rpx;
+  letter-spacing:3rpx;
+  background-image:linear-gradient(to right, #9a9ba1 0%, #9a9ba1 100%)
+}
+.register{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+}
+.register view{
+  color: rgb(173, 166, 166);
+}

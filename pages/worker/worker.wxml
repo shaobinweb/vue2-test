@@ -1,0 +1,26 @@
+<view class="container">
+  <view class='worker'>
+    <view class='worker-item'>
+        <view class='worker-left' bindtap='region'>
+          <image src='../../images/worker/chengshi.png' style='width:40rpx;height:40rpx;'></image>
+          <text>城市</text>
+        </view>
+        <view class='worker-left'>
+          <text>{{child}}</text>
+          <image src='../../images/worker/xiabiao.png' style='width:40rpx;height:40rpx'></image>
+        </view>
+    </view>
+    <view class='conter'></view>
+    <view class='worker-item' bindtap='whole'>
+        <view class='worker-left'>
+          <image src='../../images/worker/gongzhong.png' style='width:40rpx;height:40rpx;'></image>
+          <text>工种</text>
+        </view>
+        <view class='worker-left'>
+          <text>全部</text>
+          <image src='../../images/worker/xiabiao.png' style='width:40rpx;height:40rpx'></image>
+        </view>
+    </view>
+  </view>
+</view>
+

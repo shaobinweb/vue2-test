@@ -1,0 +1,16 @@
+  <view class='bott'>
+    <text>联系人：</text>
+    <input type='text' bindinput='contacts'></input>
+  </view>
+  <view class='bott'> 
+    <text>联系电话：</text>
+    <input type="number" maxlength="11" bindinput='telephone'></input>
+  </view>  
+  <button bindtap='contact'>确定</button>
+
+
+  <frameds id="framedId" 
+                      phoneNmbern="请输入11位手机号"></frameds>
+  <frameds id="format"
+                     phoneNmbern="手机格式不对"></frameds>
+  
